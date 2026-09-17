@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment and secrets
+.env
+.env.*
+
+# Model weights and large files
+models/
+outputs/
+*.npz
+*.bin
+*.pt
+*.pth
+*.safetensors
+hnm_final_r2/
+
+# Data - included in repo for reproducibility
+
+# Submission outputs
+submission.csv
+submission_*.csv
+
+# OS
+.DS_Store
+Thumbs.db
